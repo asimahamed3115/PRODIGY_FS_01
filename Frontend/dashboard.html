@@ -1,0 +1,8 @@
+<h2>Welcome to Dashboard!</h2>
+<script>
+  const token = localStorage.getItem('token');
+  if (!token) {
+    alert('Not logged in!');
+    window.location.href = 'login.html';
+  }
+</script>
